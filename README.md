@@ -27,3 +27,26 @@ java study
 
 ## 개선할점
 + HashMap의 getOrDefault 메서드를 정확히 이해하고 실습 해본후에 완주하지 못한 선수 다시 도전해볼것
+
+
+# 01월 22일
+
+## 잘된점
++ 자바 문자열 관련 알고리즘 4문제 풀기 및 정리
+
+## 배운점
++ 문자열 관련 메서드 split , subString , indexOf에 대한 이해
++ Character 클래스의 isAplabetic 메서드를 사용하면 문자의 알파벳 유무를 판별할 수 있다
++ 문자열에 대해 charAt 메서드를 사용하면 특정 문자의 인덱스를 알아낼 수 있다
+
+## 정리내용
++ [문장 속 단어](https://unique-wandflower-4cc.notion.site/3-2fff7c524dae4aa188c2a9e226dc8077)
++ [단어 뒤집기](https://unique-wandflower-4cc.notion.site/4-ace207ae20984892bc2a176908173c3c)
++ [특정 문자 뒤집기](https://unique-wandflower-4cc.notion.site/5-e113926190c34159bcb9926feaf67393)
++ [중복 문자 제거](https://unique-wandflower-4cc.notion.site/6-f9230922a0e342d9be5a5ae150b3b679)
+
+
+
+## 개선할점
++ 코드의 양을 줄이고 효율적으로 메서드를 활용하어 작성하는 방법에 대한 고민
++ 문자열 관련 메서드를 활용할 수 있도록 많은 연습 필요
