@@ -50,3 +50,19 @@ java study
 ## 개선할점
 + 코드의 양을 줄이고 효율적으로 메서드를 활용하어 작성하는 방법에 대한 고민
 + 문자열 관련 메서드를 활용할 수 있도록 많은 연습 필요
+
+
+# 01월 23일
+
+## 잘된점
++ 자바 문자열 관련 알고리즘 3문제 풀고 정리
+
+## 정리내용
++ [회문 문자열](https://unique-wandflower-4cc.notion.site/7-264b01ca2d3f45fe9f5ccea0a181d674)
++ [팬린드롬](https://unique-wandflower-4cc.notion.site/8-07604d92c83a40b8afdb7dfb4cf4462d)
++ [숫자만 추출](https://unique-wandflower-4cc.notion.site/9-3df5c496b33a4d43943e10d3757e4557)
+
+## 개선할 점
++ 문제를 많이 푸는것도 중요하지만 원리를 아는 것도 중요하다
++ 직접 그림을 그려보면서 확실하게 이해하고 다른 문제에 적용할 수 있도록 계속 연습해야 겠다
+
