@@ -66,3 +66,21 @@ java study
 + 문제를 많이 푸는것도 중요하지만 원리를 아는 것도 중요하다
 + 직접 그림을 그려보면서 확실하게 이해하고 다른 문제에 적용할 수 있도록 계속 연습해야 겠다
 
+
+# 01월 24일
+## 잘된점
++ 반복문에 대한 이해 및 문제풀이
++ 배열에 대한 이해 및 문제풀이
++ [반복문 정리](https://unique-wandflower-4cc.notion.site/ch5-944dafff6985435fb669c4ca8e32a51f)
++ [배열 정리](https://unique-wandflower-4cc.notion.site/ch6-83f145eb199a48d9ae45a2f9d157d26c)
++ [문자열 암호 문제](https://unique-wandflower-4cc.notion.site/12-8c8ac03652de41deaac762d833317d63)
++ [배열 큰수 출력](https://unique-wandflower-4cc.notion.site/1-d18268d09af546f29fa05b059d4b0b5c)
+
+## 배운점
++ startsWith 메서드를 사용하면 대상 문자열이 특정 문자 또는 문자열로 시작하는지 알수 있다
++ [프로그래머스 전화번호 목록](https://unique-wandflower-4cc.notion.site/af4dfc002c1e4c8094de233539de48a1)
+
+## 개선할 점
++ 처음부터 풀이가 떠오르지 않는다고 조급해 하지 말자 이제 알고리즘 공부한지 5일 되었다
++ 다른 사람풀이를 보고 왜 이렇게 풀었을지 고민하고 내것으로 만드는 것도 공부다
++ 화이팅!!
