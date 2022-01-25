@@ -84,3 +84,19 @@ java study
 + 처음부터 풀이가 떠오르지 않는다고 조급해 하지 말자 이제 알고리즘 공부한지 5일 되었다
 + 다른 사람풀이를 보고 왜 이렇게 풀었을지 고민하고 내것으로 만드는 것도 공부다
 + 화이팅!!
+
+
+# 01월 25일
+## 잘된점
++ 생성자를 통해 객체를 생성하는 과정에 대한 이해
++ 접근제한하를 통해 외부에서 접근을 제한하고 이를 우회하는 게터/세터 메서드 사용방법에 대한 이해
++ 배열을 사용하여 알고리즘 2문제 풀고 정리
+
+## 배운점
++ [클래스를 통해 객체를 생성하는 방법](https://unique-wandflower-4cc.notion.site/ch7-c8e301fb0f314152977d65064b8bfc7a)
++ [접근제한자의 목적과 이를 우회하는 방법](https://unique-wandflower-4cc.notion.site/ch8-0775df221bc246f0bbca355a54b633d8)
++ [배열을 사용한 알고리즘 문제풀이 1.](https://unique-wandflower-4cc.notion.site/2-27deff89685746cfb795eafdca151224)
++ [배열을 사용한 알고리즘 문제풀이 2.](https://unique-wandflower-4cc.notion.site/3-a7e9545b79794b8c923ce015ee0bde94)
+
+## 개선할점
++ 배열에서 중복된 값을 제거하는 로직에 대한 고민 필요
