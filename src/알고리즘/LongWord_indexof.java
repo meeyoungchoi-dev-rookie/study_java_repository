@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class LongWord {
+public class LongWord_indexof {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        LongWord lw = new LongWord();
+        LongWord_indexof lw = new LongWord_indexof();
 
 
         String sentence = scan.nextLine();
@@ -17,35 +17,32 @@ public class LongWord {
     }
 
     public String solution(String sentence) {
-        int longCount = 0;
+
         String result = "";
-        String[] afterSplit = sentence.split(" ");
-        ArrayList<Integer> afterSplitLength = new ArrayList<>();
-        ArrayList<String> longestWords = new ArrayList<>();
 
-        for (int i = 0; i < afterSplit.length; i++) {
-            System.out.println(afterSplit[i]);
-            afterSplitLength.add(afterSplit[i].length());
-        }
+        int m = Integer.MIN_VALUE, pos;
+        System.out.println(m);
 
-        for (Integer data : afterSplitLength) {
-            System.out.println("data: " + data);
-        }
-
-        System.out.println("길이가 가장 긴 데이터: " + Collections.max(afterSplitLength));
-
-        for (String str : afterSplit) {
-            if (str.length() ==  Collections.max(afterSplitLength)) {
-                longCount += 1;
-                result = str;
-                longestWords.add(result);
-                if (longCount >= 2) {
-                    result = longestWords.get(0);
+        System.out.println("pos: " + m);
+        while ((pos = sentence.indexOf(' ')) != -1) {// 띄어쓰기가 발견되었을때
+            System.out.println("pos: " + pos );
+                String tmp = sentence.substring(0 , pos);
+            System.out.println("tmp: " + tmp);
+                int len  = tmp.length();
+                if (len  > m) {
+                    m = len;
+                    result = tmp;
                 }
-            }
+               sentence  = sentence.substring(pos + 1);
+            System.out.println("sentence: " + sentence);
         }
 
-        System.out.println("길이가 가장 긴 단어: " + result);
+        if (result.length() > m) {
+            result = sentence;
+            System.out.println("result: " + result);
+
+
+        }
 
         return result;
     }
