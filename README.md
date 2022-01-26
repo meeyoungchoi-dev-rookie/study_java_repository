@@ -100,3 +100,20 @@ java study
 
 ## 개선할점
 + 배열에서 중복된 값을 제거하는 로직에 대한 고민 필요
+
+
+# 01월 26일
+## 잘된점
++ 상속 개념에 대한 이해와 문제풀이
++ 베열관련 알고리즘 두문제 풀고 정리
++ [피보나치 수열](https://unique-wandflower-4cc.notion.site/4-9bdf065c02f942fe93609108daf7f879)
++ [소수 판별하기](https://unique-wandflower-4cc.notion.site/5-c9d314e84e16434a988b47042898c23d)
+
+## 배운점
++ [상속의 특징](https://unique-wandflower-4cc.notion.site/ch10-147fe25e1ee94979874ff8ed2872b33f)
++ [업캐스팅과 메서드 오버라이딩](https://unique-wandflower-4cc.notion.site/d3e564b7627549bba579e1cd8941a83e)
++ [상속과 생성자 호출](https://unique-wandflower-4cc.notion.site/917db96a26984fbab7b2983762e396cd)
++ [ths , super , protected](https://unique-wandflower-4cc.notion.site/this-super-protected-b78ce0b4e54f463eb013ba319b7fe904)
+
+
+
