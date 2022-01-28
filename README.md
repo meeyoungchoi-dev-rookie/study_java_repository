@@ -137,6 +137,24 @@ java study
 + 소수인지 판단할 때 더 효율적으로 판단할수 있는 방법이 있는지 고민 필요
 
 
+# 01월 28일
+
+## 잘된점
++ 인터페이스의 사용목적과 사용방법에 대한 이해
++ 배열을 사용한 자바 알고리즘 3문제 해결
++ [등수 구하기](https://www.notion.so/8-738b66f84788440a82214930b7cff93d)
++ [격자판 최대합](https://www.notion.so/9-4af791e94aa34d16aa8f0be43d6c47e9)
++ [봉우리](https://www.notion.so/10-711683f941244928b751d02355d66b88)
+
+
+## 배운점
++ [인터페이스의 역할과 사용방법](https://unique-wandflower-4cc.notion.site/ch11-5f35086f397b434397687b84f351d261)
++ [인터페이스와 다형성](https://unique-wandflower-4cc.notion.site/68548ec656c94466aa4ee6cfc1d11892)
++ [인터페이스에 올수 있는 메서드 종류](https://unique-wandflower-4cc.notion.site/53d9115b167243e1b31e210f0f3bad1c)
+
+## 개선할점
++ 처음부터 잘할순 없다 꾸준히 하자!!
+
 
 
 
