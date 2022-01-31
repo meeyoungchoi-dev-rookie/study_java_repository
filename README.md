@@ -166,6 +166,14 @@ java study
 + 자바 중복문자제거 알고리즘 문제 복습
 
 
+# 01월 31일
+## 잘된점
++ 자바 예외처리 정리 및 문제 풀이
+
+## 배운점
++ 예외의 종류와 예외를 던져서 처리하는 방법
++ [자바 예외처리](https://unique-wandflower-4cc.notion.site/ch12-1dfc823bac4c4ce6bebfc6101747b122)
+
 
 
 
