@@ -175,6 +175,20 @@ java study
 + [자바 예외처리](https://unique-wandflower-4cc.notion.site/ch12-1dfc823bac4c4ce6bebfc6101747b122)
 
 
+# 02월 01일
+## 잘된점
++ 자바 파일입출력 정리 및 문제풀이
++ 자바 문자열 관련 알고리즘 3문제 풀고 정리
+## 배운점
++ 파일입출력이란 무엇인가
++ 파일입출력에 사용되는 클래스와 클래스간 관계
++ charAt 메서드를 사용하여 특정 인덱스 위치의 문자를 반환받는다
++ indexOf 메서드를 사용하여 특정 문자가 가장 처음 나오는 인덱스를 반환받는다
++ [자바 파일 입출력 정리](https://unique-wandflower-4cc.notion.site/ch13-f6a2e9d4ce0a4d5bb23749acf5f2c69c)
++ [자바 특정문자 뒤집기](https://unique-wandflower-4cc.notion.site/5-cfe4be61ff3641df8af96c7ae0ee3b3a)
++ [자바 중복문자 제거](https://unique-wandflower-4cc.notion.site/6-fc19d0680c1e4ed0b1f2d544d5be662b)
++ [자바 회문문자열](https://unique-wandflower-4cc.notion.site/7-0f94585106d94fb88381280981fc7f19)
+
 
 
 
