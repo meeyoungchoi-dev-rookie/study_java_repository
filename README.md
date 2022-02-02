@@ -190,5 +190,23 @@ java study
 + [자바 회문문자열](https://unique-wandflower-4cc.notion.site/7-0f94585106d94fb88381280981fc7f19)
 
 
+# 02월 02일
+## 자바 영화얘매 프로그램
+### 잘된점
++ 프로그램 기능 정리
++ 프로그램 시작점과 프로그램 종료점의 구조파악
++ [영화 얘매 프로그램 기능 및 시작 메뉴 구성](https://unique-wandflower-4cc.notion.site/ch14-a50c66672f624eb2bc5f37b3cb4ff6f3)
+
+## 자바 문자열 알고리즘
+### 잘된점
++ 문자열 알고리즘 3문제 풀고 정리
++ [유효한 팰린드롬](https://unique-wandflower-4cc.notion.site/8-09339df4525147e2a248c5c92b3b66db)
++ [숫자만 추출](https://unique-wandflower-4cc.notion.site/9-cda967f603de43c2be4ad4072e59c362)
++ [가장 짧은 문자거리](https://unique-wandflower-4cc.notion.site/10-f47b3c4aa87345a1b167fdc67134c57a)
+### 배운점
++ replaceAll 메서드에 정규표현식을 사용하여 특정 조건을 만족하는 경우 이를 대체 문자로 치환시킨다
++ Character 클래스의 isDigit 메서드를 사용하여 char 타입의 문자가 숫자인지 여부를 판단한다
+
+
 
 
