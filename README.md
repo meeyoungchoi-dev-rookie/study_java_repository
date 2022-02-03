@@ -209,4 +209,33 @@ java study
 
 
 
+# 02월 03일
+## 자바 영화 얘매 콘솔 프로그램
+
+### 잘된점
++ 영화 얘매 콘솔 프로그램 기능 추가
++ 파일에서 영화 목록을 읽어와 콘솔에 보여준다
++ 관리자 영역은 관리자 암호를 올바르게 입력한 사람만 볼수 있도록 구현
++ [영화 애매 콘솔 프로그램](https://unique-wandflower-4cc.notion.site/ch14-a50c66672f624eb2bc5f37b3cb4ff6f3)
+
+### 배운점
++ 파일 객체를 사용하여 moveis.txt 파일을 읽어온다
++ BufferedReader 객체를 사용하여 파일의 데이터를 한줄씩 읽어온다
+
+## 자바 알고리즘
+### 잘된점
++ 문자열 관련 알고리즘 2문제 풀고 정리
++ 배열 관련 알고리즘 1문제 풀고 정리
++ [문자열 압축](https://unique-wandflower-4cc.notion.site/11-d29f8bf310a34bbfbc62f9b906d48e6b)
++ [암호](https://unique-wandflower-4cc.notion.site/12-bfa610840f1347959b9fa514edc9f782)
++ [큰 수 출력하기](https://unique-wandflower-4cc.notion.site/1-122326ae37994904a12bbb9b9575d695)
+
+### 배운점
++ int 형 데이터를 String 타입의 문자열로 만들때 Stirng 클래스의 valueOf 메서드를 사용한다
++ 문자열의 특정 위치부터 특정 위치까지 자르는 경우 substring 메서드를 사용한다
++ 문자열에서 특정 문자를 특정 문자로 대체하고자 하는 경우 replace 메서드를 사용한다
+
+
+
+
 
