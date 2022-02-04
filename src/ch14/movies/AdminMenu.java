@@ -22,8 +22,14 @@ public class AdminMenu  extends  AbstractMenu {
     @Override
     public Menu next() {
         switch (scanner.nextLine()) {
+            case "1":
+                createMovie();
+                return this;
             case "2":
                 printAllMovies();
+                return this;
+            case "3":
+                deleteMovie();
                 return this;
             case "b": return prevMenu;
             default: return this;
@@ -47,6 +53,39 @@ public class AdminMenu  extends  AbstractMenu {
 
     }
 
+    private void createMovie() {
+
+        System.out.println("제목: ");
+        String title = scanner.nextLine();
+
+        System.out.println("장르: ");
+        String genere = scanner.nextLine();
+
+        Movie movie = new Movie(title, genere);
+        System.out.println(movie.toString());
+
+        try {
+
+            movie.save();
+        } catch (Exception e) {
+
+        }
+    }
+    
+    
+    private void deleteMovie() {
+        printAllMovies();
+        System.out.println("삭제할 영화를 선태갛세요");
+
+        try {
+            Movie.delete(scanner.nextLine());
+
+        } catch (Exception e) {
+
+        }
+
+    }
+    
 
 
 }

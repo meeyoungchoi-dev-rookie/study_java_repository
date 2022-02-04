@@ -1,16 +1,20 @@
 package ch14.movies;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 
 public class Movie {
     private  long id;
     private String title;
     private String genre;
-    private static final File file = new File("movies.txt");
+    private static final File file = new File("./movies.txt");
+
+    public Movie(String title , String genre) {
+        this.title = title;
+        this.genre = genre;
+    }
+
+
 
     public Movie(long id, String title , String genre) {
         this.id = id;
@@ -28,14 +32,66 @@ public class Movie {
 
         while ((line = br.readLine()) != null) {
 
+            System.out.println(line);
+
             String[] temp = line.split(",");
-            Movie m = new Movie(Long.parseLong(temp[0]) , temp[1] , temp[2]);
+
+            for (int i = 0; i < temp.length; i++) {
+                System.out.print(temp[i] + " ");
+            }
+
+
+
+            Movie m = null;
+            if (temp[2].equals(null)) {
+                m = new Movie(temp[0] , temp[1]);
+            } else {
+                m = new Movie(Long.parseLong(temp[0]) , temp[1] , temp[2]);
+            }
+
             movies.add(m);
         }
 
         br.close();
         return  movies;
     }
+
+    public void save() throws IOException {
+        FileWriter fw = new FileWriter(file , true);
+
+        fw.write(this.toFileString() + "\n");
+        fw.close();
+    }
+
+
+    private String toFileString() {
+        return String.format("%d,%s,%s", id , title , genre);
+    }
+
+
+    public static void delete(String movieId) throws IOException {
+        BufferedReader br = new BufferedReader(new FileReader(file));
+        String text = "";
+        String line = null;
+
+        while ((line = br.readLine()) != null) {
+                String[] temp = line.split(",");
+
+                if (movieId.equals(temp[0])) {
+                    continue;
+                }
+                text += line + "\n";
+
+
+                br.close();
+
+                FileWriter fw = new FileWriter(file);
+
+                fw.write(text);
+                fw.close();
+        }
+    }
+
 
     @Override
     public String toString() {

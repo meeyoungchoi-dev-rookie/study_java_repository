@@ -18,8 +18,27 @@ public class MainMenu extends AbstractMenu {
     public Menu next() {
 
         switch (scanner.nextLine()) {
+
+            case "4" :
+                if (! checkedAdminPassword()) {
+                    System.out.println("비밀번호가 틀렸습니다.");
+                    return this; // 실패한 경우 메인 메뉴 객체 반환
+                }
+                AdminMenu adminMenu = AdminMenu.getInstance();
+                adminMenu.setPrevMenu(this);
+                return adminMenu;
+
             case "q" : return prevMenu;
             default: return this;
         }
     }
+
+    private boolean checkedAdminPassword() {
+        System.out.println("관리자 비밀번호를 입력하세요.");
+        return "admin1234".equals(scanner.nextLine());
+    }
+
+
+
+
 }
