@@ -267,3 +267,12 @@ java study
 ### 배운점
 + 소수를 판단하기 위해 배수가 되는 숫자를 먼저 걸러낸다
 + [소수 찾기_에라토스테니스의 체 방식](https://unique-wandflower-4cc.notion.site/5-5f198572f1774ec1961e0dd021495793)
+
+# 02월 07일
+## 자바 영와 얘매 프로그램
+### 잘된점
++ 영화 얘매 확인 기능
++ 영화 얘매 취소 기능
+
+### 배운점
++ [영화 얘매 프로그램 얘매 확인 및 얘매 취소 정리 내용](https://unique-wandflower-4cc.notion.site/ch14-a50c66672f624eb2bc5f37b3cb4ff6f3)

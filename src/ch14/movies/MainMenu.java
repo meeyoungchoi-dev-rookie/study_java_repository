@@ -1,5 +1,9 @@
 package ch14.movies;
 
+import java.io.IOException;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 public class MainMenu extends AbstractMenu {
     private  static final MainMenu instance = new MainMenu(null);
 
@@ -18,6 +22,16 @@ public class MainMenu extends AbstractMenu {
     public Menu next() {
 
         switch (scanner.nextLine()) {
+            case "1":
+                reserve();
+                return this;
+            case "2":
+                checkReservation();
+                return this;
+
+            case "3":
+                cancelReservation();
+                return this;
 
             case "4" :
                 if (! checkedAdminPassword()) {
@@ -38,7 +52,65 @@ public class MainMenu extends AbstractMenu {
         return "admin1234".equals(scanner.nextLine());
     }
 
+    private  void checkReservation() {
+        System.out.print("발급번호를 입력하세요: ");
 
+
+        try {
+           Reservation r =  Reservation.findById(scanner.nextLine());
+
+           if (r != null) {
+               System.out.println("[확인완료]" + r.toString());
+           } else {
+               System.out.println("얘매 내역이 없습니다.");
+           }
+
+        } catch (IOException e) {
+            System.out.println("파일 입출력에 문제가 생겼습니다.");
+        }
+    }
+
+
+    private  void cancelReservation() {
+        System.out.println("발급번호를 입력하세요: ");
+
+        try {
+            Reservation cancled =  Reservation.findById(scanner.nextLine());
+
+            if (cancled != null) {
+                System.out.println("[확인완료]" + cancled.toString());
+            } else {
+                System.out.println("얘매 내역이 없습니다.");
+            }
+
+        } catch (IOException e) {
+            System.out.println("파일 입출력에 문제가 생겼습니다.");
+        }
+
+
+
+    }
+
+
+    public void reserve() {
+
+        try {
+            ArrayList<Movie> movies = Movie.findAll();
+
+            for (int i = 0; i < movies.size(); i++) {
+                System.out.println(movies.get(i).toString());
+            }
+
+            System.out.println("얘매할 영화를 입력하세요");
+            String movieIdStr = scanner.nextLine();
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+    }
 
 
 }
