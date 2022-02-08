@@ -86,9 +86,6 @@ public class MainMenu extends AbstractMenu {
         } catch (IOException e) {
             System.out.println("파일 입출력에 문제가 생겼습니다.");
         }
-
-
-
     }
 
 
@@ -104,8 +101,24 @@ public class MainMenu extends AbstractMenu {
             System.out.println("얘매할 영화를 입력하세요");
             String movieIdStr = scanner.nextLine();
 
+            Movie m = Movie.findById(movieIdStr);
+            ArrayList<Reservation> reservations = Reservation.findByIdMovie(movieIdStr);
+            Seats seats = new Seats(reservations);
+            seats.show();
+
+            System.out.print("좌석을 선택하세요 예)E-9");
+            String seatName = scanner.nextLine();
+            seats.mark(seatName);
+
+            Reservation r = new Reservation(Long.parseLong(movieIdStr), m.getTitle(), seatName);
+            r.save();
+
+            System.out.println("얘매가 완료 되었습니다.");
+            System.out.println("발급번호: " + r.getId());
 
         } catch (IOException e) {
+            e.printStackTrace();
+        } catch (Exception e) {
             e.printStackTrace();
         }
 

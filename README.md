@@ -276,3 +276,22 @@ java study
 
 ### 배운점
 + [영화 얘매 프로그램 얘매 확인 및 얘매 취소 정리 내용](https://unique-wandflower-4cc.notion.site/ch14-a50c66672f624eb2bc5f37b3cb4ff6f3)
+
+
+
+# 02월 08일
+## 자바 영화 얘매 콘솔 프로그램
+
+### 잘된점
++ 영화 얘매 기능 구현
+
+### 배운점
++ [영와 얘매 기능 구현 및 정리](https://unique-wandflower-4cc.notion.site/ch14-a50c66672f624eb2bc5f37b3cb4ff6f3)
+
+## 자바 알고리즘
+### 잘된점
++ 배열관련 알고리즘 2문제 풀고 정리
+
+### 배운점
++ [뒤집은 소수 문제 풀고 정리](https://unique-wandflower-4cc.notion.site/6-68b7d17ac94d4790a1ed31f5c4ae8755)
++ [점수계산 문제 풀고 정리](https://unique-wandflower-4cc.notion.site/7-436dec9bd2064ef58a192f1a5f8c7fdd)

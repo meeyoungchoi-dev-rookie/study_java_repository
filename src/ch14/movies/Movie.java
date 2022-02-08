@@ -14,7 +14,9 @@ public class Movie {
         this.genre = genre;
     }
 
-
+    public String getTitle() {
+        return title;
+    }
 
     public Movie(long id, String title , String genre) {
         this.id = id;
@@ -91,6 +93,27 @@ public class Movie {
                 fw.close();
         }
     }
+
+    public static Movie findById(String movieIdStr) throws IOException {
+
+        Movie movie = null;
+        BufferedReader br = new BufferedReader(new FileReader(file));
+        String line = null;
+
+        while ((line = br.readLine()) != null) {
+            String[] temp = line.split(",");
+            if (movieIdStr.equals(temp[0])) {
+                movie = new Movie(Long.parseLong(temp[0]) , temp[1] , temp[2]);
+                break;
+            }
+        }
+        br.close();
+        return movie;
+    }
+
+
+
+
 
 
     @Override
